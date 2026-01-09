@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header {
+    background: #bde7ea;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #999;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 15px;
+}
+
+.judul {
+    flex: 1;
+    text-align: center;
+}
+
+.menu {
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-right: 2px solid #999;
+    height: 100%;
+}
+
+.menu h3 {
+    font-size: 14px;
+}
+
+.menu a {
+    display: block;
+    background: #cc0033;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.box {
+    padding: 40px;
+    border-left: 2px solid #999;
+    height: 100%;
+}
+
+.box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box form {
+    width: 50%;
+    margin: auto;
+}
+
+.box label {
+    font-weight: bold;
+}
+
+.box input,
+.box textarea {
+    width: 100%;
+    padding: 6px;
+}
+
+.box textarea {
+    height: 90px;
+}
+
+.box button {
+    display: block;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background: #bde7ea;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 2px solid #999;
+}
